@@ -1,0 +1,48 @@
+/* header */
+header {
+    width: 100%;
+    height: 50vh;
+    background: url('../img/header.png') no-repeat center center/cover;
+}
+
+.header-main {
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.header-main h1 {
+    font-size: 3rem;
+}
+
+/* main */
+.m-hr {
+    background-color: #800a0a;
+    padding: 5px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.section-1 {
+    padding: 40px 0;
+}
+
+.section-1 h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.section-1 h2 a {
+    color: #212121;
+}
+
+.section-1 hr {
+    background-color: #212121;
+    padding: 2px;
+}
