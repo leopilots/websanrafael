@@ -1,0 +1,78 @@
+/* header */
+header {
+    width: 100%;
+    height: 50vh;
+    background: url('../img/header.png') no-repeat center center/cover;
+}
+
+.header-main {
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.header-main h1 {
+    font-size: 3rem;
+}
+
+/* section-1 */
+.section-1 hr {
+    background-color: #800a0a;
+    padding: 40px;
+}
+
+.section-1-text {
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: justify;
+}
+
+.section-1-text p {
+    padding: 20px 0;
+}
+
+/* section-2 */
+.section-2 {
+    background-color: #800a0a;
+}
+
+.section-2-text {
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+    color: #fff;
+    text-align: justify;
+}
+
+.section-2-text p {
+    padding: 20px 0;
+}
+
+/* section-3 */
+.section-3 {
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.section-3 img {
+    width: 100%;
+}
+
+@media (max-width: 300px) {
+    /* header */
+    .header-main h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-height: 700px) { 
+    /* header */
+    .header-main  {
+        padding-top: 10px;
+    }
+}

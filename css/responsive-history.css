@@ -1,0 +1,20 @@
+@media (max-width: 900px) {
+    /* header */
+    .header-main h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 300px) {
+    /* header */
+    .header-main h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-height: 700px) { 
+    /* header */
+    .header-main  {
+        padding-top: 10px;
+    }
+}
