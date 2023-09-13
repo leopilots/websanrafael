@@ -1,0 +1,36 @@
+@media (max-width: 900px) {
+    /* section-1 */
+    .section-1-main {
+        text-align: center;
+        display: block;
+    }
+    .section-1-main img {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .section-1-main h2 {
+        font-size: 1.5rem;
+    }
+    /* section 2 */
+    .section-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-2 li img {
+        width: 150px;
+        height: auto;
+    }
+    .section-2 li a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 700px) { 
+    /* header */
+    .header-main  {
+        padding-top: 10px;
+    }
+    /* section-1 */
+    .section-1-main h2 {
+        font-size: 1rem;
+    }
+}

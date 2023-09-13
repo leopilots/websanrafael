@@ -1,0 +1,76 @@
+/* header */
+header {
+    width: 100%;
+    height: 50vh;
+    background: url('../img/header.png') no-repeat center center/cover;
+}
+
+.header-main {
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.header-main h1 {
+    font-size: 3rem;
+}
+
+/* section-1 */
+.section-1 {
+    background-color: #800a0a;
+}
+
+.section-1-main {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.section-1-main img {
+    width: 350px;
+}
+
+.section-1-main h2 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 0 30px;
+}
+
+/* section 2 */
+.section-2 {
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.section-2 li {
+    list-style: none;
+}
+
+.section-2 li img {
+    width: 200px;
+    height: auto;
+    margin: 40px 0;
+    padding: 30px;
+    transition: 0.5s all;
+    border: 2px solid #fff;
+}
+
+.section-2 li img:hover {
+    border: 2px solid #800a0a;
+}
+
+.section-2 li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 1.5rem;
+}

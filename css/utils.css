@@ -94,4 +94,9 @@ footer {
     text-decoration: none;
     font-size: 4rem;
     color: #fff;
+    transition: 0.5s all;
+}
+
+.f-social a i:hover {
+    color: #1877f2;
 }
