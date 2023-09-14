@@ -1,3 +1,9 @@
+//- preloader 
+window.onload = function() {
+    $("#preloader-onload").fadeOut();
+    $("body").removeClass("hidden");
+}
+
 //- navegation
 // ocultar o mostrar el menu
 document.querySelector(".menu-btn").addEventListener("click", () => {
